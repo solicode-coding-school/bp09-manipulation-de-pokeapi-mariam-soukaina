@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="types-page" class="page active">
+        <h1>Types de Pokémon</h1>
+        <div id="types-container" class="container"></div>
+    </div>
+
+    <div id="pokemons-page" class="page">
+        <h1>Pokémon par Type</h1>
+        <div id="pokemons-container" class="container"></div>
+        <button id="back-to-types" onclick="goBack()">Retour</button>
+    </div>
+
+    <div id="details-page" class="page">
+        <h1>Détails du Pokémon</h1>
+        <div id="details-container" class="details"></div>
+        <button id="back-to-pokemons" onclick="goBack()">Retour</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
